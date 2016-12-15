@@ -47,7 +47,7 @@ h1, h2, h3 {
   color:greenyellow;
 }
 
-// Home Page Styles
+// Navbar Color Styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color:greenyellow;
@@ -58,11 +58,23 @@ h1, h2, h3 {
 .navbar-default .navbar-nav > li > a:hover {
   color:yellow;
   &:hover {
-    color: yellow;
+  color: yellow;
   opacity: 0.9;
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background:white;
+}
+
+.navbar-default .navbar-toggle, {
+  border: 2px solid white;
+  &:hover, &:focus {
+  background-color: #00c6ff;
+  }
+}
+
+//Home Page Styles
 .home-callout {
   color:white;
   margin-top: -20px;
